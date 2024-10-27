@@ -1,0 +1,89 @@
+header
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-block: 0.9rem;
+    z-index: 9999999999999;
+    width: 100%;
+    border-bottom-width: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.nav
+{
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo
+{
+    width: 100px;
+}
+.nav ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.nav ul a
+{
+    text-decoration: none;
+    color: var(--text);
+    padding-inline: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+.menu
+{
+    padding-left: 1.5rem;
+}
+.menu a
+{
+    padding: 0px !important;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(115, 115, 115, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.menu a .bar
+{
+    position: relative;
+    width: 52%;
+    height: 1.3px;
+    background-color: var(--text);
+    border-radius: 2px;
+}
+.menu a .bar::after,
+.menu a .bar::before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 2px;
+}
+.menu a .bar::after
+{
+    top: 4.5px;
+}
+.menu a .bar::before
+{
+    top: -4.5px;
+}
