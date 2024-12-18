@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 
@@ -14,20 +14,22 @@
     border-width: 0px;
     border-style: solid;
     box-sizing: border-box;
-    user-select: none;
+    user-select: text;
     scroll-behavior: smooth;
+    word-spacing: 1px;
     /* all font */
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 700; */
     font-style: normal;
 }
 
 
 :root
 {
-    --background: #0f0f0f;
-    --text: #ffffff;
-    --border-color: #333;
+    --background: #fff;
+    --text: #0f0f0f;
+    --border-color: #cdcdcd;
+    --accent: #BA62FC;
 }
 ::-webkit-scrollbar
 {

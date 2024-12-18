@@ -1,0 +1,82 @@
+.About
+{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    z-index: 999999;
+    background-color: var(--background);
+}
+.About .photo
+{
+    width: 300px;
+    height: 300px;
+    background-image: url(/Container/assets/img/me.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: var(--accent);
+}
+.About .info
+{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.About .info .name
+{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--accent);
+    border-radius: 50px;
+}
+.About .info .bio
+{
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.About .info .bio p
+{
+    color: var(--accent);
+}
+.About .skills
+{
+    max-width: 650px;
+}
+.About .skills h2
+{
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--accent);
+    border-radius: 50px;
+}
+.About .skills .box
+{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.About .skills .box .skill
+{
+    padding: 5px 20px;
+    background-color: var(--accent);
+    color: var(--background);
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50px;
+    /* border-width: 2px; */
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

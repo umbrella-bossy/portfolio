@@ -92,6 +92,7 @@ main .text h2
     font-size: 6.5rem;
     letter-spacing: 20px;
     line-height: 0.88;
+    color: #fff;
     font-family: "Protest Guerrilla", sans-serif;
     user-select: text !important;
     pointer-events: auto !important;
@@ -102,6 +103,7 @@ main .text h1
     font-size: 8rem;
     letter-spacing: 40px;
     line-height: 0.88;
+    color: #fff;
     font-family: "Protest Guerrilla", sans-serif;
     user-select: text !important;
     pointer-events: auto !important;

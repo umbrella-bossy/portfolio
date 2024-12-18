@@ -3,7 +3,15 @@ import "./index.css";
 
 
 
-const Main = ({position}: {position: {x: number, y: number}}) =>
+const Main = (
+    {
+        position,
+        scrollTop
+    }:
+    {
+        position: {x: number, y: number},
+        scrollTop: number;
+    }) =>
 {
     return (
         <main
@@ -69,7 +77,8 @@ const Main = ({position}: {position: {x: number, y: number}}) =>
             <div
                 className="text parallax"
                 style={{
-                    transform: `translate(calc(-50% + ${-position.x * 0.07}px), calc(-50% + ${position.y * 0.07}px))`
+                    transform: `translate(calc(-50% + ${-position.x * 0.07}px), calc(-50% + ${position.y * 0.07}px))`,
+                    top: `calc(50% - ${130 - scrollTop}px)`,
                 }}
             >
                 <h2>IBO</h2>
